@@ -29,7 +29,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
-  border: 10px solid goldenrod;
+  border: 10px solid #daa520;
   height: 100vh;  
-  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.box {
+  width: 300px;
+  height: 2.5em;
+  margin: .05em;
 }

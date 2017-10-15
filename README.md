@@ -12,11 +12,18 @@
 [Wes Bes](http://wesbos.com/)
 
 ## Notes
-- Main axis: `flex-direction: row` is from left to right
-- Cross axis: `flex-direction: row` if from top to bottom
-- Cross axis: `flex-direction: column` if from top to bottom
-- Main axis: `flex-direction: column` is from left to right
+- `flex-direction: row` is default.
+- Main axis: `flex-direction: row` is from left to right, Cross axis is from top to bottom.
+- Main axis: `flex-direction: column` is from top to bottom, Cross axis is from left to right.
+- Main axis: `flex-direction: row-reverse` is from right to left, Cross axis is from bottom to top.
+- Main axis: `flex-direction: column-reverse` is from bottom to top, Cross axis is from right to left.
 
-- Main axis: `flex-direction: row-reverse` is from right to left
+- Flex container is parent and flex item is child, i.e.,
+  ```
+  <div class="container">
+    <p class="item"></p>
+  </div>
+  ```
+- flex-wrap (default is `flex-wrap:nowrap`): `flex-wrap:wrap` on parent 
 
--
+ 
