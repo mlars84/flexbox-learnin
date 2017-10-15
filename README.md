@@ -26,4 +26,10 @@
   ```
 - flex-wrap (default is `flex-wrap:nowrap`): `flex-wrap:wrap` on parent 
 
+### Order on flex item
+- example: `order: 5;`
+- default order for anything not set is 0,  so any value above zero will go to end and start count there. 
+can overwrite default value: `order: 1` on all items.
+- negative values work as well.
+
  
