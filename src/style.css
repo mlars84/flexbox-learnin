@@ -20,7 +20,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 body {
-  background: lemonchiffon;
+  background: black;
 }
 
 
@@ -50,7 +50,9 @@ body {
   display: flex;
   border: 10px solid mistyrose;
   height: 50vh;
-  align-items: baseline;
+  align-items: center;
+  flex-direction: column;
+  margin: 1vh 1vw 1vh 1vw;
 }
 
 .box1 {
