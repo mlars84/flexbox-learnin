@@ -32,4 +32,12 @@
 can overwrite default value: `order: 1` on all items.
 - negative values work as well.
 
+### Flexbox Alignment and Centering with `justify-content`
+- How are the items aligned on the main-axis?
+- flex-start is default
+- flex-start, flex-end, center, space-between, space-around.
+
+### align-items (more concerned with cross-axis)
+- default is `align-items: stretch`
+
  

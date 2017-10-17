@@ -5,11 +5,28 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Box-sizing border-box */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  font-weight: bold;
+  margin: 5vh 5vw 20vh 5vw;
+  border: 5px solid lightseagreen;
+  background: lightcoral;
+  padding: 3vh 0 3vh 0;
+}
+
+body {
+  background: rgb(255, 255, 131);
+}
+
 
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -29,20 +46,88 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
+  border: 10px solid mistyrose;
+  height: 50vh;
+  align-items: baseline;
 }
 
-.box {
-  flex: 1;
+.box1 {
+  font-size: 30px;
 }
 
 .box3 {
-  order: 1;
-}
-
-.box7 {
-  order: 2;
+  font-size: 90px;
 }
 
 .box5 {
-  order: 3;
+  font-size: 120px;
+}
+
+.box7 {
+  font-size: 15px;
+}
+
+.box9 {
+  font-size: 300px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  background: white;
+  height: 100px;
+  margin-top: 25px;
+}
+
+.item1 {
+  justify-content: flex-start;
+  flex: 0;
+  border: 1px solid black;
+  background: blue;
+  margin: .75em;
+}
+
+.item2 {
+  flex: 0;
+  text-align: center;
+  border: 1px solid black;
+  background: red;
+  margin: .75em;
+}
+
+.item3 {
+  flex: 0;
+  justify-content: flex-end;
+  border: 1px solid black;
+  background: yellow;
+  margin: .75em;
+}
+
+.pooptainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pooptainer > * {  
+  position: absolute;  
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40vh;
 }
