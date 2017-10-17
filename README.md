@@ -9,7 +9,7 @@
 - $ open index.html in browser
 
 ## Acknowledments
-[Wes Bes](http://wesbos.com/)
+[Wes Bes](http://wesbos.com/), [Abbey Fitzgerald](https://github.com/abbeyjfitzgerald)
 
 ## Notes
 - `flex-direction: row` is default.
