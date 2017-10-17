@@ -13,16 +13,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   font-weight: bold;
   margin: 5vh 5vw 20vh 5vw;
-  border: 5px solid lightseagreen;
-  background: lightcoral;
-  padding: 3vh 0 3vh 0;
+  border: 2px solid darkslateblue;
+  border-radius: 10px;
+  background: lightsteelblue;
+  padding: 1vh 0 1vh 0;
 }
 
 body {
-  background: rgb(255, 255, 131);
+  background: lemonchiffon;
 }
 
 
+/* flexbox.io stuff */
 /* Some default styles to make each box visible */
 .box {
   color:white;
@@ -70,7 +72,37 @@ body {
 .box9 {
   font-size: 300px;
 }
+/* end flexbox.io stuff */
 
+
+/* https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/ */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  background: lightblue;
+  margin-top: 30px;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+.card {
+  border: 2px solid white;
+  background: lightcyan;
+  padding: 1vh 1vw 1vh 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  flex-basis: 20vw;
+  text-align: center;
+  min-height: 20vh;
+}
+
+.card2 {
+}
+
+/* end how-to-use-flexbox-to-create-a-modern-card-design-layout */
+
+
+/* muckin' around on my own */
 .items {
   display: flex;
   flex-direction: row;
@@ -105,24 +137,8 @@ body {
   margin: .75em;
 }
 
-.pooptainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.pooptainer > * {  
-  position: absolute;  
-}
-
-.red {
-  background: red;
-}
-
-.green {
-  background: green;
-}
-
+/* just a footer for fun */
 .footer {
   display: flex;
   align-items: center;
